@@ -1,7 +1,25 @@
 .navbar{
      background-color: white;
+     font-size:2em ;
+     text-align : center;
 }
 
 body{
     background-color: grey;
+}
+.container{
+    background-color: white;
+    height: 10rem;
+    margin-top: 5px;
+}
+.photo1{
+    font-size: 15em;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+   
+    
+}
+* {
+	border: 1px solid red;
 }
