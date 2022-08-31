@@ -22,6 +22,15 @@ body{
    
     
 }
+.photo2{
+    font-size: 15em;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    border: 100px solid transparent;
+   
+
+}
 .texto-encima-photo1{
     font-size:xx-large;
     text-align: left;
@@ -29,22 +38,22 @@ body{
     font-family: arial;
 }
 .texto-encima-photo1-lateral{
-    font-size:large;
-    text-align: right;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float:right;
     margin-right: 20px;
-    color:grey
-     
+    color: grey;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
 }
+
 .pie-photo1{
-    line-height:normal;
+ line-height:normal;
  font-size:20px;
- display:table-header-group;
+
  background:white;
  color:black;
  font-style: time new roman;
-
- 
+ text-align: center;
 
 }
 
