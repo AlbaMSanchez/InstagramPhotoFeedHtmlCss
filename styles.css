@@ -18,7 +18,6 @@ body{
     background-color: white;
     height: 100%;
     margin-top: 5px;
-   
 
 }
 
@@ -31,8 +30,7 @@ body{
     font-size: 15em;
     display: flex;
     justify-content: center;
-   
-    
+ 
 }
 
 .texto-encima-photo1{
@@ -45,10 +43,12 @@ body{
 }
 .texto-encima-photo1-lateral{
     float:right;
-    margin-right: 20px;
     color: grey;
     font-size: large;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    right: -75%;
+
     
     
 }
@@ -57,6 +57,54 @@ body{
  line-height:normal;
  font-size:20px;
 
+ background:white;
+ color:black;
+ font-style: time new roman;
+ text-align: center;
+
+}
+
+
+.container2{
+    background-color: white;
+    height: 100%;
+    margin-top: 25px;
+
+}
+
+.container-small2{
+    display: flex;
+    flex-direction: row;
+}
+
+.photo2{
+    font-size: 5em;
+    display: flex;
+    justify-content: center;
+   
+    
+}
+
+.texto-encima-photo2{
+    font-size:xx-large;
+    text-align: left;
+    margin-top: 50px;
+    font-family: arial;
+    width: 200px;
+   
+}
+.texto-encima-photo2-lateral{
+    float:right;
+    color: grey;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   position: relative;
+   right: -75%;
+}
+
+.pie-photo2{
+ line-height:normal;
+ font-size:20px;
  background:white;
  color:black;
  font-style: time new roman;
