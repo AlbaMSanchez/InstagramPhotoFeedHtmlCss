@@ -14,10 +14,33 @@ body{
     align-items: center;
     margin: auto;
 }
+
 .container{
     background-color: white;
     height: 100%;
     margin-top: 5px;
+    max-width: 80rem;
+
+}
+
+.container-small{
+    display: flex;
+    flex-direction: row;
+}
+.photo-container{
+    width: 60rem;
+}
+
+.photo{
+    object-fit: cover;
+    object-position: center center;
+    width: 100%;
+}
+
+.container{
+    background-color: white;
+    height: 100%;
+    margin-top: 25px;
 
 }
 
@@ -26,14 +49,8 @@ body{
     flex-direction: row;
 }
 
-.photo1{
-    font-size: 15em;
-    display: flex;
-    justify-content: center;
- 
-}
 
-.texto-encima-photo1{
+.texto-encima-photo{
     font-size:xx-large;
     text-align: left;
     margin-top: 50px;
@@ -41,59 +58,7 @@ body{
     width: 200px;
    
 }
-.texto-encima-photo1-lateral{
-    float:right;
-    color: grey;
-    font-size: large;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    position: relative;
-    right: -75%;
-
-    
-    
-}
-
-.pie-photo1{
- line-height:normal;
- font-size:20px;
-
- background:white;
- color:black;
- font-style: time new roman;
- text-align: center;
-
-}
-
-
-.container2{
-    background-color: white;
-    height: 100%;
-    margin-top: 25px;
-
-}
-
-.container-small2{
-    display: flex;
-    flex-direction: row;
-}
-
-.photo2{
-    font-size: 5em;
-    display: flex;
-    justify-content: center;
-   
-    
-}
-
-.texto-encima-photo2{
-    font-size:xx-large;
-    text-align: left;
-    margin-top: 50px;
-    font-family: arial;
-    width: 200px;
-   
-}
-.texto-encima-photo2-lateral{
+.texto-encima-photo-lateral{
     float:right;
     color: grey;
     font-size: large;
@@ -102,14 +67,16 @@ body{
    right: -75%;
 }
 
-.pie-photo2{
+.pie-photo{
  line-height:normal;
  font-size:20px;
  background:white;
  color:black;
  font-style: time new roman;
  text-align: center;
-
+ height: 50px;
+ display: flex;
+ justify-content: start;
+ align-items: center;
+ padding-left: 5px;
 }
-
-*{border: 1px solid red;}
